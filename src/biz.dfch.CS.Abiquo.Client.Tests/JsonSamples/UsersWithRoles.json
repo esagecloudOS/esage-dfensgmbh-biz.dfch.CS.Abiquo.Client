@@ -1,0 +1,1861 @@
+﻿{
+	"links": [{
+		"rel": "first",
+		"href": "https://abiquo/api/admin/enterprises/1/users?limit=25&by=name"
+	},
+	{
+		"rel": "last",
+		"href": "https://abiquo/api/admin/enterprises/1/users?startwith=0&limit=25&by=name"
+	}],
+	"collection": [{
+		"links": [{
+			"title": "Arbitrary Enterprise",
+			"rel": "enterprise",
+			"type": "application/vnd.abiquo.enterprise+json",
+			"href": "https://abiquo/api/admin/enterprises/1"
+		},
+		{
+			"title": "CLOUD_ADMIN",
+			"rel": "role",
+			"type": "application/vnd.abiquo.role+json",
+			"href": "https://abiquo/api/admin/roles/1"
+		},
+		{
+			"title": "admin",
+			"rel": "edit",
+			"type": "application/vnd.abiquo.user+json",
+			"href": "https://abiquo/api/admin/enterprises/1/users/1"
+		},
+		{
+			"title": "virtual machines",
+			"rel": "virtualmachines",
+			"type": "application/vnd.abiquo.virtualmachines+json",
+			"href": "https://abiquo/api/admin/enterprises/1/users/1/action/virtualmachines"
+		},
+		{
+			"title": "pending tasks",
+			"rel": "pendingtasks",
+			"type": "application/vnd.abiquo.tasks+json",
+			"href": "https://abiquo/api/admin/enterprises/1/users/1/action/pendingtasks"
+		},
+		{
+			"title": "applications",
+			"rel": "applications",
+			"type": "application/vnd.abiquo.applications+json",
+			"href": "https://abiquo/api/admin/enterprises/1/users/1/applications"
+		}],
+		"id": 1,
+		"name": "Cloud",
+		"nick": "admin",
+		"locale": "en_US",
+		"surname": "Administrator",
+		"active": true,
+		"email": "",
+		"description": "Main administrator",
+		"firstLogin": false,
+		"locked": false,
+		"authType": "ABIQUO",
+		"role": {
+			"links": [],
+			"id": 1,
+			"name": "CLOUD_ADMIN",
+			"blocked": false,
+			"privileges": {
+				"links": [],
+				"collection": [{
+					"links": [{
+						"title": "ENTERPRISE_ENUMERATE",
+						"rel": "self",
+						"type": "application/vnd.abiquo.privilege+json",
+						"href": "https://abiquo/api/config/privileges/1"
+					}],
+					"id": 1,
+					"name": "ENTERPRISE_ENUMERATE"
+				},
+				{
+					"links": [{
+						"title": "ENTERPRISE_ADMINISTER_ALL",
+						"rel": "self",
+						"type": "application/vnd.abiquo.privilege+json",
+						"href": "https://abiquo/api/config/privileges/2"
+					}],
+					"id": 2,
+					"name": "ENTERPRISE_ADMINISTER_ALL"
+				},
+				{
+					"links": [{
+						"title": "ENTERPRISE_RESOURCE_SUMMARY_ENT",
+						"rel": "self",
+						"type": "application/vnd.abiquo.privilege+json",
+						"href": "https://abiquo/api/config/privileges/3"
+					}],
+					"id": 3,
+					"name": "ENTERPRISE_RESOURCE_SUMMARY_ENT"
+				},
+				{
+					"links": [{
+						"title": "PHYS_DC_ENUMERATE",
+						"rel": "self",
+						"type": "application/vnd.abiquo.privilege+json",
+						"href": "https://abiquo/api/config/privileges/4"
+					}],
+					"id": 4,
+					"name": "PHYS_DC_ENUMERATE"
+				},
+				{
+					"links": [{
+						"title": "PHYS_DC_RETRIEVE_RESOURCE_USAGE",
+						"rel": "self",
+						"type": "application/vnd.abiquo.privilege+json",
+						"href": "https://abiquo/api/config/privileges/5"
+					}],
+					"id": 5,
+					"name": "PHYS_DC_RETRIEVE_RESOURCE_USAGE"
+				},
+				{
+					"links": [{
+						"title": "PHYS_DC_MANAGE",
+						"rel": "self",
+						"type": "application/vnd.abiquo.privilege+json",
+						"href": "https://abiquo/api/config/privileges/6"
+					}],
+					"id": 6,
+					"name": "PHYS_DC_MANAGE"
+				},
+				{
+					"links": [{
+						"title": "PHYS_DC_RETRIEVE_DETAILS",
+						"rel": "self",
+						"type": "application/vnd.abiquo.privilege+json",
+						"href": "https://abiquo/api/config/privileges/7"
+					}],
+					"id": 7,
+					"name": "PHYS_DC_RETRIEVE_DETAILS"
+				},
+				{
+					"links": [{
+						"title": "PHYS_DC_ALLOW_MODIFY_SERVERS",
+						"rel": "self",
+						"type": "application/vnd.abiquo.privilege+json",
+						"href": "https://abiquo/api/config/privileges/8"
+					}],
+					"id": 8,
+					"name": "PHYS_DC_ALLOW_MODIFY_SERVERS"
+				},
+				{
+					"links": [{
+						"title": "PHYS_DC_ALLOW_MODIFY_NETWORK",
+						"rel": "self",
+						"type": "application/vnd.abiquo.privilege+json",
+						"href": "https://abiquo/api/config/privileges/9"
+					}],
+					"id": 9,
+					"name": "PHYS_DC_ALLOW_MODIFY_NETWORK"
+				},
+				{
+					"links": [{
+						"title": "PHYS_DC_ALLOW_MODIFY_STORAGE",
+						"rel": "self",
+						"type": "application/vnd.abiquo.privilege+json",
+						"href": "https://abiquo/api/config/privileges/10"
+					}],
+					"id": 10,
+					"name": "PHYS_DC_ALLOW_MODIFY_STORAGE"
+				},
+				{
+					"links": [{
+						"title": "PHYS_DC_ALLOW_MODIFY_ALLOCATION",
+						"rel": "self",
+						"type": "application/vnd.abiquo.privilege+json",
+						"href": "https://abiquo/api/config/privileges/11"
+					}],
+					"id": 11,
+					"name": "PHYS_DC_ALLOW_MODIFY_ALLOCATION"
+				},
+				{
+					"links": [{
+						"title": "VDC_ENUMERATE",
+						"rel": "self",
+						"type": "application/vnd.abiquo.privilege+json",
+						"href": "https://abiquo/api/config/privileges/12"
+					}],
+					"id": 12,
+					"name": "VDC_ENUMERATE"
+				},
+				{
+					"links": [{
+						"title": "VDC_MANAGE",
+						"rel": "self",
+						"type": "application/vnd.abiquo.privilege+json",
+						"href": "https://abiquo/api/config/privileges/13"
+					}],
+					"id": 13,
+					"name": "VDC_MANAGE"
+				},
+				{
+					"links": [{
+						"title": "VDC_MANAGE_VAPP",
+						"rel": "self",
+						"type": "application/vnd.abiquo.privilege+json",
+						"href": "https://abiquo/api/config/privileges/14"
+					}],
+					"id": 14,
+					"name": "VDC_MANAGE_VAPP"
+				},
+				{
+					"links": [{
+						"title": "VDC_MANAGE_NETWORK",
+						"rel": "self",
+						"type": "application/vnd.abiquo.privilege+json",
+						"href": "https://abiquo/api/config/privileges/15"
+					}],
+					"id": 15,
+					"name": "VDC_MANAGE_NETWORK"
+				},
+				{
+					"links": [{
+						"title": "VDC_MANAGE_STORAGE",
+						"rel": "self",
+						"type": "application/vnd.abiquo.privilege+json",
+						"href": "https://abiquo/api/config/privileges/16"
+					}],
+					"id": 16,
+					"name": "VDC_MANAGE_STORAGE"
+				},
+				{
+					"links": [{
+						"title": "VAPP_CUSTOMISE_SETTINGS",
+						"rel": "self",
+						"type": "application/vnd.abiquo.privilege+json",
+						"href": "https://abiquo/api/config/privileges/17"
+					}],
+					"id": 17,
+					"name": "VAPP_CUSTOMISE_SETTINGS"
+				},
+				{
+					"links": [{
+						"title": "VAPP_DEPLOY_UNDEPLOY",
+						"rel": "self",
+						"type": "application/vnd.abiquo.privilege+json",
+						"href": "https://abiquo/api/config/privileges/18"
+					}],
+					"id": 18,
+					"name": "VAPP_DEPLOY_UNDEPLOY"
+				},
+				{
+					"links": [{
+						"title": "VAPP_PERFORM_ACTIONS",
+						"rel": "self",
+						"type": "application/vnd.abiquo.privilege+json",
+						"href": "https://abiquo/api/config/privileges/21"
+					}],
+					"id": 21,
+					"name": "VAPP_PERFORM_ACTIONS"
+				},
+				{
+					"links": [{
+						"title": "VAPP_CREATE_STATEFUL",
+						"rel": "self",
+						"type": "application/vnd.abiquo.privilege+json",
+						"href": "https://abiquo/api/config/privileges/22"
+					}],
+					"id": 22,
+					"name": "VAPP_CREATE_STATEFUL"
+				},
+				{
+					"links": [{
+						"title": "VAPP_CREATE_INSTANCE",
+						"rel": "self",
+						"type": "application/vnd.abiquo.privilege+json",
+						"href": "https://abiquo/api/config/privileges/23"
+					}],
+					"id": 23,
+					"name": "VAPP_CREATE_INSTANCE"
+				},
+				{
+					"links": [{
+						"title": "APPLIB_VIEW",
+						"rel": "self",
+						"type": "application/vnd.abiquo.privilege+json",
+						"href": "https://abiquo/api/config/privileges/24"
+					}],
+					"id": 24,
+					"name": "APPLIB_VIEW"
+				},
+				{
+					"links": [{
+						"title": "APPLIB_ALLOW_MODIFY",
+						"rel": "self",
+						"type": "application/vnd.abiquo.privilege+json",
+						"href": "https://abiquo/api/config/privileges/25"
+					}],
+					"id": 25,
+					"name": "APPLIB_ALLOW_MODIFY"
+				},
+				{
+					"links": [{
+						"title": "APPLIB_UPLOAD_IMAGE",
+						"rel": "self",
+						"type": "application/vnd.abiquo.privilege+json",
+						"href": "https://abiquo/api/config/privileges/26"
+					}],
+					"id": 26,
+					"name": "APPLIB_UPLOAD_IMAGE"
+				},
+				{
+					"links": [{
+						"title": "APPLIB_MANAGE_REPOSITORY",
+						"rel": "self",
+						"type": "application/vnd.abiquo.privilege+json",
+						"href": "https://abiquo/api/config/privileges/27"
+					}],
+					"id": 27,
+					"name": "APPLIB_MANAGE_REPOSITORY"
+				},
+				{
+					"links": [{
+						"title": "APPLIB_DOWNLOAD_IMAGE",
+						"rel": "self",
+						"type": "application/vnd.abiquo.privilege+json",
+						"href": "https://abiquo/api/config/privileges/28"
+					}],
+					"id": 28,
+					"name": "APPLIB_DOWNLOAD_IMAGE"
+				},
+				{
+					"links": [{
+						"title": "APPLIB_MANAGE_CATEGORIES",
+						"rel": "self",
+						"type": "application/vnd.abiquo.privilege+json",
+						"href": "https://abiquo/api/config/privileges/29"
+					}],
+					"id": 29,
+					"name": "APPLIB_MANAGE_CATEGORIES"
+				},
+				{
+					"links": [{
+						"title": "USERS_VIEW",
+						"rel": "self",
+						"type": "application/vnd.abiquo.privilege+json",
+						"href": "https://abiquo/api/config/privileges/30"
+					}],
+					"id": 30,
+					"name": "USERS_VIEW"
+				},
+				{
+					"links": [{
+						"title": "USERS_MANAGE_ENTERPRISE",
+						"rel": "self",
+						"type": "application/vnd.abiquo.privilege+json",
+						"href": "https://abiquo/api/config/privileges/31"
+					}],
+					"id": 31,
+					"name": "USERS_MANAGE_ENTERPRISE"
+				},
+				{
+					"links": [{
+						"title": "USERS_MANAGE_USERS",
+						"rel": "self",
+						"type": "application/vnd.abiquo.privilege+json",
+						"href": "https://abiquo/api/config/privileges/32"
+					}],
+					"id": 32,
+					"name": "USERS_MANAGE_USERS"
+				},
+				{
+					"links": [{
+						"title": "USERS_MANAGE_OTHER_ENTERPRISES",
+						"rel": "self",
+						"type": "application/vnd.abiquo.privilege+json",
+						"href": "https://abiquo/api/config/privileges/33"
+					}],
+					"id": 33,
+					"name": "USERS_MANAGE_OTHER_ENTERPRISES"
+				},
+				{
+					"links": [{
+						"title": "USERS_PROHIBIT_VDC_RESTRICTION",
+						"rel": "self",
+						"type": "application/vnd.abiquo.privilege+json",
+						"href": "https://abiquo/api/config/privileges/34"
+					}],
+					"id": 34,
+					"name": "USERS_PROHIBIT_VDC_RESTRICTION"
+				},
+				{
+					"links": [{
+						"title": "USERS_VIEW_PRIVILEGES",
+						"rel": "self",
+						"type": "application/vnd.abiquo.privilege+json",
+						"href": "https://abiquo/api/config/privileges/35"
+					}],
+					"id": 35,
+					"name": "USERS_VIEW_PRIVILEGES"
+				},
+				{
+					"links": [{
+						"title": "USERS_MANAGE_ROLES",
+						"rel": "self",
+						"type": "application/vnd.abiquo.privilege+json",
+						"href": "https://abiquo/api/config/privileges/36"
+					}],
+					"id": 36,
+					"name": "USERS_MANAGE_ROLES"
+				},
+				{
+					"links": [{
+						"title": "USERS_MANAGE_ROLES_OTHER_ENTERPRISES",
+						"rel": "self",
+						"type": "application/vnd.abiquo.privilege+json",
+						"href": "https://abiquo/api/config/privileges/37"
+					}],
+					"id": 37,
+					"name": "USERS_MANAGE_ROLES_OTHER_ENTERPRISES"
+				},
+				{
+					"links": [{
+						"title": "USERS_MANAGE_SYSTEM_ROLES",
+						"rel": "self",
+						"type": "application/vnd.abiquo.privilege+json",
+						"href": "https://abiquo/api/config/privileges/38"
+					}],
+					"id": 38,
+					"name": "USERS_MANAGE_SYSTEM_ROLES"
+				},
+				{
+					"links": [{
+						"title": "USERS_MANAGE_LDAP_GROUP",
+						"rel": "self",
+						"type": "application/vnd.abiquo.privilege+json",
+						"href": "https://abiquo/api/config/privileges/39"
+					}],
+					"id": 39,
+					"name": "USERS_MANAGE_LDAP_GROUP"
+				},
+				{
+					"links": [{
+						"title": "USERS_ENUMERATE_CONNECTED",
+						"rel": "self",
+						"type": "application/vnd.abiquo.privilege+json",
+						"href": "https://abiquo/api/config/privileges/40"
+					}],
+					"id": 40,
+					"name": "USERS_ENUMERATE_CONNECTED"
+				},
+				{
+					"links": [{
+						"title": "SYSCONFIG_VIEW",
+						"rel": "self",
+						"type": "application/vnd.abiquo.privilege+json",
+						"href": "https://abiquo/api/config/privileges/41"
+					}],
+					"id": 41,
+					"name": "SYSCONFIG_VIEW"
+				},
+				{
+					"links": [{
+						"title": "SYSCONFIG_ALLOW_MODIFY",
+						"rel": "self",
+						"type": "application/vnd.abiquo.privilege+json",
+						"href": "https://abiquo/api/config/privileges/42"
+					}],
+					"id": 42,
+					"name": "SYSCONFIG_ALLOW_MODIFY"
+				},
+				{
+					"links": [{
+						"title": "EVENTLOG_VIEW_ENTERPRISE",
+						"rel": "self",
+						"type": "application/vnd.abiquo.privilege+json",
+						"href": "https://abiquo/api/config/privileges/43"
+					}],
+					"id": 43,
+					"name": "EVENTLOG_VIEW_ENTERPRISE"
+				},
+				{
+					"links": [{
+						"title": "EVENTLOG_VIEW_ALL",
+						"rel": "self",
+						"type": "application/vnd.abiquo.privilege+json",
+						"href": "https://abiquo/api/config/privileges/44"
+					}],
+					"id": 44,
+					"name": "EVENTLOG_VIEW_ALL"
+				},
+				{
+					"links": [{
+						"title": "APPLIB_VM_COST_CODE",
+						"rel": "self",
+						"type": "application/vnd.abiquo.privilege+json",
+						"href": "https://abiquo/api/config/privileges/45"
+					}],
+					"id": 45,
+					"name": "APPLIB_VM_COST_CODE"
+				},
+				{
+					"links": [{
+						"title": "SYSCONFIG_SHOW_REPORTS",
+						"rel": "self",
+						"type": "application/vnd.abiquo.privilege+json",
+						"href": "https://abiquo/api/config/privileges/47"
+					}],
+					"id": 47,
+					"name": "SYSCONFIG_SHOW_REPORTS"
+				},
+				{
+					"links": [{
+						"title": "USERS_DEFINE_AS_MANAGER",
+						"rel": "self",
+						"type": "application/vnd.abiquo.privilege+json",
+						"href": "https://abiquo/api/config/privileges/48"
+					}],
+					"id": 48,
+					"name": "USERS_DEFINE_AS_MANAGER"
+				},
+				{
+					"links": [{
+						"title": "PRICING_VIEW",
+						"rel": "self",
+						"type": "application/vnd.abiquo.privilege+json",
+						"href": "https://abiquo/api/config/privileges/49"
+					}],
+					"id": 49,
+					"name": "PRICING_VIEW"
+				},
+				{
+					"links": [{
+						"title": "PRICING_MANAGE",
+						"rel": "self",
+						"type": "application/vnd.abiquo.privilege+json",
+						"href": "https://abiquo/api/config/privileges/50"
+					}],
+					"id": 50,
+					"name": "PRICING_MANAGE"
+				},
+				{
+					"links": [{
+						"title": "USERS_MANAGE_CHEF_ENTERPRISE",
+						"rel": "self",
+						"type": "application/vnd.abiquo.privilege+json",
+						"href": "https://abiquo/api/config/privileges/51"
+					}],
+					"id": 51,
+					"name": "USERS_MANAGE_CHEF_ENTERPRISE"
+				},
+				{
+					"links": [{
+						"title": "MANAGE_HARD_DISKS",
+						"rel": "self",
+						"type": "application/vnd.abiquo.privilege+json",
+						"href": "https://abiquo/api/config/privileges/52"
+					}],
+					"id": 52,
+					"name": "MANAGE_HARD_DISKS"
+				},
+				{
+					"links": [{
+						"title": "APPLIB_MANAGE_GLOBAL_CATEGORIES",
+						"rel": "self",
+						"type": "application/vnd.abiquo.privilege+json",
+						"href": "https://abiquo/api/config/privileges/53"
+					}],
+					"id": 53,
+					"name": "APPLIB_MANAGE_GLOBAL_CATEGORIES"
+				},
+				{
+					"links": [{
+						"title": "USERS_MANAGE_SCOPES",
+						"rel": "self",
+						"type": "application/vnd.abiquo.privilege+json",
+						"href": "https://abiquo/api/config/privileges/54"
+					}],
+					"id": 54,
+					"name": "USERS_MANAGE_SCOPES"
+				},
+				{
+					"links": [{
+						"title": "USERS_MANAGE_RESERVED_MACHINES",
+						"rel": "self",
+						"type": "application/vnd.abiquo.privilege+json",
+						"href": "https://abiquo/api/config/privileges/55"
+					}],
+					"id": 55,
+					"name": "USERS_MANAGE_RESERVED_MACHINES"
+				},
+				{
+					"links": [{
+						"title": "ENTERPRISE_SHOW_STATS_LIMITS",
+						"rel": "self",
+						"type": "application/vnd.abiquo.privilege+json",
+						"href": "https://abiquo/api/config/privileges/57"
+					}],
+					"id": 57,
+					"name": "ENTERPRISE_SHOW_STATS_LIMITS"
+				},
+				{
+					"links": [{
+						"title": "VAPP_MANAGE_LAYERS",
+						"rel": "self",
+						"type": "application/vnd.abiquo.privilege+json",
+						"href": "https://abiquo/api/config/privileges/56"
+					}],
+					"id": 56,
+					"name": "VAPP_MANAGE_LAYERS"
+				},
+				{
+					"links": [{
+						"title": "PHYS_DC_ALLOW_BACKUP_CONFIG",
+						"rel": "self",
+						"type": "application/vnd.abiquo.privilege+json",
+						"href": "https://abiquo/api/config/privileges/58"
+					}],
+					"id": 58,
+					"name": "PHYS_DC_ALLOW_BACKUP_CONFIG"
+				},
+				{
+					"links": [{
+						"title": "VAPP_MANAGE_BACKUP",
+						"rel": "self",
+						"type": "application/vnd.abiquo.privilege+json",
+						"href": "https://abiquo/api/config/privileges/59"
+					}],
+					"id": 59,
+					"name": "VAPP_MANAGE_BACKUP"
+				},
+				{
+					"links": [{
+						"title": "VAPP_DEFINE_BACKUP_INFO",
+						"rel": "self",
+						"type": "application/vnd.abiquo.privilege+json",
+						"href": "https://abiquo/api/config/privileges/60"
+					}],
+					"id": 60,
+					"name": "VAPP_DEFINE_BACKUP_INFO"
+				},
+				{
+					"links": [{
+						"title": "WORKFLOW_OVERRIDE",
+						"rel": "self",
+						"type": "application/vnd.abiquo.privilege+json",
+						"href": "https://abiquo/api/config/privileges/61"
+					}],
+					"id": 61,
+					"name": "WORKFLOW_OVERRIDE"
+				},
+				{
+					"links": [{
+						"title": "APPLIB_SHOW_DC_CAPACITY",
+						"rel": "self",
+						"type": "application/vnd.abiquo.privilege+json",
+						"href": "https://abiquo/api/config/privileges/62"
+					}],
+					"id": 62,
+					"name": "APPLIB_SHOW_DC_CAPACITY"
+				},
+				{
+					"links": [{
+						"title": "VAPP_DELETE_UNKNOWN_VM",
+						"rel": "self",
+						"type": "application/vnd.abiquo.privilege+json",
+						"href": "https://abiquo/api/config/privileges/63"
+					}],
+					"id": 63,
+					"name": "VAPP_DELETE_UNKNOWN_VM"
+				},
+				{
+					"links": [{
+						"title": "MANAGE_FLOATINGIPS",
+						"rel": "self",
+						"type": "application/vnd.abiquo.privilege+json",
+						"href": "https://abiquo/api/config/privileges/64"
+					}],
+					"id": 64,
+					"name": "MANAGE_FLOATINGIPS"
+				},
+				{
+					"links": [{
+						"title": "ASSIGN_FIREWALLS",
+						"rel": "self",
+						"type": "application/vnd.abiquo.privilege+json",
+						"href": "https://abiquo/api/config/privileges/65"
+					}],
+					"id": 65,
+					"name": "ASSIGN_FIREWALLS"
+				},
+				{
+					"links": [{
+						"title": "MANAGE_FIREWALLS",
+						"rel": "self",
+						"type": "application/vnd.abiquo.privilege+json",
+						"href": "https://abiquo/api/config/privileges/66"
+					}],
+					"id": 66,
+					"name": "MANAGE_FIREWALLS"
+				},
+				{
+					"links": [{
+						"title": "USERS_MANAGE_ENTERPRISE_BRANDING",
+						"rel": "self",
+						"type": "application/vnd.abiquo.privilege+json",
+						"href": "https://abiquo/api/config/privileges/46"
+					}],
+					"id": 46,
+					"name": "USERS_MANAGE_ENTERPRISE_BRANDING"
+				},
+				{
+					"links": [{
+						"title": "VAPP_STATEFUL_VIEW",
+						"rel": "self",
+						"type": "application/vnd.abiquo.privilege+json",
+						"href": "https://abiquo/api/config/privileges/67"
+					}],
+					"id": 67,
+					"name": "VAPP_STATEFUL_VIEW"
+				},
+				{
+					"links": [{
+						"title": "VAPP_MANAGE_BACKUP_DISKS",
+						"rel": "self",
+						"type": "application/vnd.abiquo.privilege+json",
+						"href": "https://abiquo/api/config/privileges/68"
+					}],
+					"id": 68,
+					"name": "VAPP_MANAGE_BACKUP_DISKS"
+				},
+				{
+					"links": [{
+						"title": "ASSIGN_LOADBALANCERS",
+						"rel": "self",
+						"type": "application/vnd.abiquo.privilege+json",
+						"href": "https://abiquo/api/config/privileges/69"
+					}],
+					"id": 69,
+					"name": "ASSIGN_LOADBALANCERS"
+				},
+				{
+					"links": [{
+						"title": "MANAGE_LOADBALANCERS",
+						"rel": "self",
+						"type": "application/vnd.abiquo.privilege+json",
+						"href": "https://abiquo/api/config/privileges/70"
+					}],
+					"id": 70,
+					"name": "MANAGE_LOADBALANCERS"
+				},
+				{
+					"links": [{
+						"title": "USERS_ENABLE_DISABLE_VM_METRICS",
+						"rel": "self",
+						"type": "application/vnd.abiquo.privilege+json",
+						"href": "https://abiquo/api/config/privileges/71"
+					}],
+					"id": 71,
+					"name": "USERS_ENABLE_DISABLE_VM_METRICS"
+				},
+				{
+					"links": [{
+						"title": "USERS_SHOW_VM_METRICS",
+						"rel": "self",
+						"type": "application/vnd.abiquo.privilege+json",
+						"href": "https://abiquo/api/config/privileges/72"
+					}],
+					"id": 72,
+					"name": "USERS_SHOW_VM_METRICS"
+				},
+				{
+					"links": [{
+						"title": "VAPP_RESTORE_BACKUP",
+						"rel": "self",
+						"type": "application/vnd.abiquo.privilege+json",
+						"href": "https://abiquo/api/config/privileges/73"
+					}],
+					"id": 73,
+					"name": "VAPP_RESTORE_BACKUP"
+				},
+				{
+					"links": [{
+						"title": "USERS_PUSH_VM_METRICS",
+						"rel": "self",
+						"type": "application/vnd.abiquo.privilege+json",
+						"href": "https://abiquo/api/config/privileges/74"
+					}],
+					"id": 74,
+					"name": "USERS_PUSH_VM_METRICS"
+				},
+				{
+					"links": [{
+						"title": "VM_PROTECT_ACTION",
+						"rel": "self",
+						"type": "application/vnd.abiquo.privilege+json",
+						"href": "https://abiquo/api/config/privileges/75"
+					}],
+					"id": 75,
+					"name": "VM_PROTECT_ACTION"
+				},
+				{
+					"links": [{
+						"title": "APPLIB_EXPORT_TO_PRIVATE",
+						"rel": "self",
+						"type": "application/vnd.abiquo.privilege+json",
+						"href": "https://abiquo/api/config/privileges/76"
+					}],
+					"id": 76,
+					"name": "APPLIB_EXPORT_TO_PRIVATE"
+				},
+				{
+					"links": [{
+						"title": "APPLIB_EXPORT_TO_PUBLIC",
+						"rel": "self",
+						"type": "application/vnd.abiquo.privilege+json",
+						"href": "https://abiquo/api/config/privileges/77"
+					}],
+					"id": 77,
+					"name": "APPLIB_EXPORT_TO_PUBLIC"
+				},
+				{
+					"links": [{
+						"title": "MANAGE_VAPP_SPEC",
+						"rel": "self",
+						"type": "application/vnd.abiquo.privilege+json",
+						"href": "https://abiquo/api/config/privileges/78"
+					}],
+					"id": 78,
+					"name": "MANAGE_VAPP_SPEC"
+				},
+				{
+					"links": [{
+						"title": "CONSUME_VAPP_SPEC",
+						"rel": "self",
+						"type": "application/vnd.abiquo.privilege+json",
+						"href": "https://abiquo/api/config/privileges/79"
+					}],
+					"id": 79,
+					"name": "CONSUME_VAPP_SPEC"
+				},
+				{
+					"links": [{
+						"title": "MANAGE_DEVICES",
+						"rel": "self",
+						"type": "application/vnd.abiquo.privilege+json",
+						"href": "https://abiquo/api/config/privileges/80"
+					}],
+					"id": 80,
+					"name": "MANAGE_DEVICES"
+				},
+				{
+					"links": [{
+						"title": "USERS_VM_VIEW_ALARMS",
+						"rel": "self",
+						"type": "application/vnd.abiquo.privilege+json",
+						"href": "https://abiquo/api/config/privileges/81"
+					}],
+					"id": 81,
+					"name": "USERS_VM_VIEW_ALARMS"
+				},
+				{
+					"links": [{
+						"title": "USERS_VM_MANAGE_ALARMS",
+						"rel": "self",
+						"type": "application/vnd.abiquo.privilege+json",
+						"href": "https://abiquo/api/config/privileges/82"
+					}],
+					"id": 82,
+					"name": "USERS_VM_MANAGE_ALARMS"
+				},
+				{
+					"links": [{
+						"title": "USERS_VAPP_VIEW_ALERTS",
+						"rel": "self",
+						"type": "application/vnd.abiquo.privilege+json",
+						"href": "https://abiquo/api/config/privileges/83"
+					}],
+					"id": 83,
+					"name": "USERS_VAPP_VIEW_ALERTS"
+				},
+				{
+					"links": [{
+						"title": "USERS_VAPP_MANAGE_ALERTS",
+						"rel": "self",
+						"type": "application/vnd.abiquo.privilege+json",
+						"href": "https://abiquo/api/config/privileges/84"
+					}],
+					"id": 84,
+					"name": "USERS_VAPP_MANAGE_ALERTS"
+				},
+				{
+					"links": [{
+						"title": "VDC_MANAGE_STORAGE_CONTROLLER",
+						"rel": "self",
+						"type": "application/vnd.abiquo.privilege+json",
+						"href": "https://abiquo/api/config/privileges/85"
+					}],
+					"id": 85,
+					"name": "VDC_MANAGE_STORAGE_CONTROLLER"
+				}]
+			}
+		},
+		"enterprise": {
+			"links": [{
+				"title": "Arbitrary Enterprise",
+				"rel": "edit",
+				"type": "application/vnd.abiquo.enterprise+json",
+				"href": "https://abiquo/api/admin/enterprises/1"
+			},
+			{
+				"title": "users",
+				"rel": "users",
+				"type": "application/vnd.abiquo.users+json",
+				"href": "https://abiquo/api/admin/enterprises/1/users"
+			},
+			{
+				"title": "properties",
+				"rel": "properties",
+				"type": "application/vnd.abiquo.enterpriseproperties+json",
+				"href": "https://abiquo/api/admin/enterprises/1/properties"
+			},
+			{
+				"title": "template definitions lists",
+				"rel": "appslib/templateDefinitionLists",
+				"type": "application/vnd.abiquo.templatedefinitionlists+json",
+				"href": "https://abiquo/api/admin/enterprises/1/appslib/templateDefinitionLists"
+			},
+			{
+				"title": "template defintion paths",
+				"rel": "appslib/templateDefinitions",
+				"type": "application/vnd.abiquo.templatedefinitions+json",
+				"href": "https://abiquo/api/admin/enterprises/1/appslib/templateDefinitions"
+			},
+			{
+				"title": "repositories",
+				"rel": "datacenterrepositories",
+				"type": "application/vnd.abiquo.datacenterrepositories+json",
+				"href": "https://abiquo/api/admin/enterprises/1/datacenterrepositories"
+			},
+			{
+				"title": "virtual machines",
+				"rel": "virtualmachines",
+				"type": "application/vnd.abiquo.virtualmachines+json",
+				"href": "https://abiquo/api/admin/enterprises/1/action/virtualmachines"
+			},
+			{
+				"title": "virtual appliances",
+				"rel": "virtualappliances",
+				"type": "application/vnd.abiquo.virtualappliances+json",
+				"href": "https://abiquo/api/admin/enterprises/1/action/virtualappliances"
+			},
+			{
+				"title": "ips",
+				"rel": "ips",
+				"type": "application/vnd.abiquo.privateips+json",
+				"href": "https://abiquo/api/admin/enterprises/1/action/ips"
+			},
+			{
+				"title": "virtual datacenters",
+				"rel": "cloud/virtualdatacenters",
+				"type": "application/vnd.abiquo.virtualdatacenters+json",
+				"href": "https://abiquo/api/admin/enterprises/1/action/virtualdatacenters"
+			},
+			{
+				"title": "reserved machines",
+				"rel": "reservedmachines",
+				"type": "application/vnd.abiquo.machines+json",
+				"href": "https://abiquo/api/admin/enterprises/1/reservedmachines"
+			},
+			{
+				"title": "limits",
+				"rel": "limits",
+				"type": "application/vnd.abiquo.limits+json",
+				"href": "https://abiquo/api/admin/enterprises/1/limits"
+			},
+			{
+				"title": "volumes",
+				"rel": "volumes",
+				"type": "application/vnd.abiquo.volumes+json",
+				"href": "https://abiquo/api/admin/enterprises/1/action/volumes"
+			},
+			{
+				"title": "external networks",
+				"rel": "externalnetworks",
+				"type": "application/vnd.abiquo.vlans+json",
+				"href": "https://abiquo/api/admin/enterprises/1/action/externalnetworks"
+			},
+			{
+				"title": "pending tasks",
+				"rel": "pendingtasks",
+				"type": "application/vnd.abiquo.tasks+json",
+				"href": "https://abiquo/api/admin/enterprises/1/action/pendingtasks"
+			},
+			{
+				"title": "credentials",
+				"rel": "credentials",
+				"type": "application/vnd.abiquo.publiccloudcredentialslist+json",
+				"href": "https://abiquo/api/admin/enterprises/1/credentials"
+			},
+			{
+				"title": "virtual appliances specs",
+				"rel": "vappspecs",
+				"type": "application/vnd.abiquo.virtualappliancespecs+json",
+				"href": "https://abiquo/api/admin/enterprises/1/vappspecs"
+			}],
+	        "ramSoftLimitInMb": 0,
+	        "ramHardLimitInMb": 0,
+	        "cpuCountSoftLimit": 0,
+	        "cpuCountHardLimit": 0,
+	        "diskSoftLimitInMb": 0,
+	        "diskHardLimitInMb": 0,
+	        "storageSoftInMb": 0,
+	        "storageHardInMb": 0,
+	        "vlansSoft": 0,
+	        "vlansHard": 0,
+	        "publicIpsSoft": 0,
+	        "publicIpsHard": 0,
+	        "repositorySoftInMb": 0,
+	        "repositoryHardInMb": 0,
+	        "id": 1,
+	        "name": "Arbitrary Enterprise",
+	        "isReservationRestricted": false,
+	        "workflow": false,
+	        "twoFactorAuthenticationMandatory": false
+		}
+	},
+	{
+		"links": [{
+			"title": "Arbitrary Enterprise",
+			"rel": "enterprise",
+			"type": "application/vnd.abiquo.enterprise+json",
+			"href": "https://abiquo/api/admin/enterprises/1"
+		},
+		{
+			"title": "OUTBOUND_API_EVENTS",
+			"rel": "role",
+			"type": "application/vnd.abiquo.role+json",
+			"href": "https://abiquo/api/admin/roles/4"
+		},
+		{
+			"title": "default_outbound_api_user",
+			"rel": "edit",
+			"type": "application/vnd.abiquo.user+json",
+			"href": "https://abiquo/api/admin/enterprises/1/users/3"
+		},
+		{
+			"title": "virtual machines",
+			"rel": "virtualmachines",
+			"type": "application/vnd.abiquo.virtualmachines+json",
+			"href": "https://abiquo/api/admin/enterprises/1/users/3/action/virtualmachines"
+		},
+		{
+			"title": "pending tasks",
+			"rel": "pendingtasks",
+			"type": "application/vnd.abiquo.tasks+json",
+			"href": "https://abiquo/api/admin/enterprises/1/users/3/action/pendingtasks"
+		},
+		{
+			"title": "applications",
+			"rel": "applications",
+			"type": "application/vnd.abiquo.applications+json",
+			"href": "https://abiquo/api/admin/enterprises/1/users/3/applications"
+		}],
+		"id": 3,
+		"name": "Default User for Outbound API Events",
+		"nick": "default_outbound_api_user",
+		"locale": "en_US",
+		"active": true,
+		"firstLogin": false,
+		"locked": false,
+		"authType": "ABIQUO",
+		"role": {
+			"links": [],
+			"id": 4,
+			"name": "OUTBOUND_API_EVENTS",
+			"blocked": false,
+			"privileges": {
+				"links": [],
+				"collection": [{
+					"links": [{
+						"title": "PHYS_DC_RETRIEVE_DETAILS",
+						"rel": "self",
+						"type": "application/vnd.abiquo.privilege+json",
+						"href": "https://abiquo/api/config/privileges/7"
+					}],
+					"id": 7,
+					"name": "PHYS_DC_RETRIEVE_DETAILS"
+				},
+				{
+					"links": [{
+						"title": "USERS_VIEW",
+						"rel": "self",
+						"type": "application/vnd.abiquo.privilege+json",
+						"href": "https://abiquo/api/config/privileges/30"
+					}],
+					"id": 30,
+					"name": "USERS_VIEW"
+				},
+				{
+					"links": [{
+						"title": "VDC_ENUMERATE",
+						"rel": "self",
+						"type": "application/vnd.abiquo.privilege+json",
+						"href": "https://abiquo/api/config/privileges/12"
+					}],
+					"id": 12,
+					"name": "VDC_ENUMERATE"
+				},
+				{
+					"links": [{
+						"title": "VAPP_CUSTOMISE_SETTINGS",
+						"rel": "self",
+						"type": "application/vnd.abiquo.privilege+json",
+						"href": "https://abiquo/api/config/privileges/17"
+					}],
+					"id": 17,
+					"name": "VAPP_CUSTOMISE_SETTINGS"
+				},
+				{
+					"links": [{
+						"title": "APPLIB_DOWNLOAD_IMAGE",
+						"rel": "self",
+						"type": "application/vnd.abiquo.privilege+json",
+						"href": "https://abiquo/api/config/privileges/28"
+					}],
+					"id": 28,
+					"name": "APPLIB_DOWNLOAD_IMAGE"
+				},
+				{
+					"links": [{
+						"title": "USERS_MANAGE_USERS",
+						"rel": "self",
+						"type": "application/vnd.abiquo.privilege+json",
+						"href": "https://abiquo/api/config/privileges/32"
+					}],
+					"id": 32,
+					"name": "USERS_MANAGE_USERS"
+				},
+				{
+					"links": [{
+						"title": "APPLIB_UPLOAD_IMAGE",
+						"rel": "self",
+						"type": "application/vnd.abiquo.privilege+json",
+						"href": "https://abiquo/api/config/privileges/26"
+					}],
+					"id": 26,
+					"name": "APPLIB_UPLOAD_IMAGE"
+				},
+				{
+					"links": [{
+						"title": "VDC_MANAGE_VAPP",
+						"rel": "self",
+						"type": "application/vnd.abiquo.privilege+json",
+						"href": "https://abiquo/api/config/privileges/14"
+					}],
+					"id": 14,
+					"name": "VDC_MANAGE_VAPP"
+				},
+				{
+					"links": [{
+						"title": "APPLIB_VIEW",
+						"rel": "self",
+						"type": "application/vnd.abiquo.privilege+json",
+						"href": "https://abiquo/api/config/privileges/24"
+					}],
+					"id": 24,
+					"name": "APPLIB_VIEW"
+				},
+				{
+					"links": [{
+						"title": "ENTERPRISE_ADMINISTER_ALL",
+						"rel": "self",
+						"type": "application/vnd.abiquo.privilege+json",
+						"href": "https://abiquo/api/config/privileges/2"
+					}],
+					"id": 2,
+					"name": "ENTERPRISE_ADMINISTER_ALL"
+				},
+				{
+					"links": [{
+						"title": "USERS_MANAGE_ENTERPRISE",
+						"rel": "self",
+						"type": "application/vnd.abiquo.privilege+json",
+						"href": "https://abiquo/api/config/privileges/31"
+					}],
+					"id": 31,
+					"name": "USERS_MANAGE_ENTERPRISE"
+				},
+				{
+					"links": [{
+						"title": "VDC_MANAGE",
+						"rel": "self",
+						"type": "application/vnd.abiquo.privilege+json",
+						"href": "https://abiquo/api/config/privileges/13"
+					}],
+					"id": 13,
+					"name": "VDC_MANAGE"
+				},
+				{
+					"links": [{
+						"title": "PHYS_DC_ALLOW_MODIFY_SERVERS",
+						"rel": "self",
+						"type": "application/vnd.abiquo.privilege+json",
+						"href": "https://abiquo/api/config/privileges/8"
+					}],
+					"id": 8,
+					"name": "PHYS_DC_ALLOW_MODIFY_SERVERS"
+				},
+				{
+					"links": [{
+						"title": "USERS_MANAGE_RESERVED_MACHINES",
+						"rel": "self",
+						"type": "application/vnd.abiquo.privilege+json",
+						"href": "https://abiquo/api/config/privileges/55"
+					}],
+					"id": 55,
+					"name": "USERS_MANAGE_RESERVED_MACHINES"
+				},
+				{
+					"links": [{
+						"title": "APPLIB_ALLOW_MODIFY",
+						"rel": "self",
+						"type": "application/vnd.abiquo.privilege+json",
+						"href": "https://abiquo/api/config/privileges/25"
+					}],
+					"id": 25,
+					"name": "APPLIB_ALLOW_MODIFY"
+				},
+				{
+					"links": [{
+						"title": "PHYS_DC_ALLOW_BACKUP_CONFIG",
+						"rel": "self",
+						"type": "application/vnd.abiquo.privilege+json",
+						"href": "https://abiquo/api/config/privileges/58"
+					}],
+					"id": 58,
+					"name": "PHYS_DC_ALLOW_BACKUP_CONFIG"
+				},
+				{
+					"links": [{
+						"title": "PHYS_DC_RETRIEVE_RESOURCE_USAGE",
+						"rel": "self",
+						"type": "application/vnd.abiquo.privilege+json",
+						"href": "https://abiquo/api/config/privileges/5"
+					}],
+					"id": 5,
+					"name": "PHYS_DC_RETRIEVE_RESOURCE_USAGE"
+				},
+				{
+					"links": [{
+						"title": "PHYS_DC_ENUMERATE",
+						"rel": "self",
+						"type": "application/vnd.abiquo.privilege+json",
+						"href": "https://abiquo/api/config/privileges/4"
+					}],
+					"id": 4,
+					"name": "PHYS_DC_ENUMERATE"
+				},
+				{
+					"links": [{
+						"title": "PHYS_DC_MANAGE",
+						"rel": "self",
+						"type": "application/vnd.abiquo.privilege+json",
+						"href": "https://abiquo/api/config/privileges/6"
+					}],
+					"id": 6,
+					"name": "PHYS_DC_MANAGE"
+				},
+				{
+					"links": [{
+						"title": "ENTERPRISE_RESOURCE_SUMMARY_ENT",
+						"rel": "self",
+						"type": "application/vnd.abiquo.privilege+json",
+						"href": "https://abiquo/api/config/privileges/3"
+					}],
+					"id": 3,
+					"name": "ENTERPRISE_RESOURCE_SUMMARY_ENT"
+				},
+				{
+					"links": [{
+						"title": "MANAGE_FLOATINGIPS",
+						"rel": "self",
+						"type": "application/vnd.abiquo.privilege+json",
+						"href": "https://abiquo/api/config/privileges/64"
+					}],
+					"id": 64,
+					"name": "MANAGE_FLOATINGIPS"
+				},
+				{
+					"links": [{
+						"title": "MANAGE_FIREWALLS",
+						"rel": "self",
+						"type": "application/vnd.abiquo.privilege+json",
+						"href": "https://abiquo/api/config/privileges/66"
+					}],
+					"id": 66,
+					"name": "MANAGE_FIREWALLS"
+				},
+				{
+					"links": [{
+						"title": "VAPP_CREATE_STATEFUL",
+						"rel": "self",
+						"type": "application/vnd.abiquo.privilege+json",
+						"href": "https://abiquo/api/config/privileges/22"
+					}],
+					"id": 22,
+					"name": "VAPP_CREATE_STATEFUL"
+				},
+				{
+					"links": [{
+						"title": "VAPP_DEPLOY_UNDEPLOY",
+						"rel": "self",
+						"type": "application/vnd.abiquo.privilege+json",
+						"href": "https://abiquo/api/config/privileges/18"
+					}],
+					"id": 18,
+					"name": "VAPP_DEPLOY_UNDEPLOY"
+				},
+				{
+					"links": [{
+						"title": "VAPP_PERFORM_ACTIONS",
+						"rel": "self",
+						"type": "application/vnd.abiquo.privilege+json",
+						"href": "https://abiquo/api/config/privileges/21"
+					}],
+					"id": 21,
+					"name": "VAPP_PERFORM_ACTIONS"
+				},
+				{
+					"links": [{
+						"title": "SYSCONFIG_VIEW",
+						"rel": "self",
+						"type": "application/vnd.abiquo.privilege+json",
+						"href": "https://abiquo/api/config/privileges/41"
+					}],
+					"id": 41,
+					"name": "SYSCONFIG_VIEW"
+				},
+				{
+					"links": [{
+						"title": "PRICING_VIEW",
+						"rel": "self",
+						"type": "application/vnd.abiquo.privilege+json",
+						"href": "https://abiquo/api/config/privileges/49"
+					}],
+					"id": 49,
+					"name": "PRICING_VIEW"
+				},
+				{
+					"links": [{
+						"title": "USERS_MANAGE_OTHER_ENTERPRISES",
+						"rel": "self",
+						"type": "application/vnd.abiquo.privilege+json",
+						"href": "https://abiquo/api/config/privileges/33"
+					}],
+					"id": 33,
+					"name": "USERS_MANAGE_OTHER_ENTERPRISES"
+				},
+				{
+					"links": [{
+						"title": "USERS_VIEW_PRIVILEGES",
+						"rel": "self",
+						"type": "application/vnd.abiquo.privilege+json",
+						"href": "https://abiquo/api/config/privileges/35"
+					}],
+					"id": 35,
+					"name": "USERS_VIEW_PRIVILEGES"
+				},
+				{
+					"links": [{
+						"title": "CONSUME_VAPP_SPEC",
+						"rel": "self",
+						"type": "application/vnd.abiquo.privilege+json",
+						"href": "https://abiquo/api/config/privileges/79"
+					}],
+					"id": 79,
+					"name": "CONSUME_VAPP_SPEC"
+				},
+				{
+					"links": [{
+						"title": "MANAGE_LOADBALANCERS",
+						"rel": "self",
+						"type": "application/vnd.abiquo.privilege+json",
+						"href": "https://abiquo/api/config/privileges/70"
+					}],
+					"id": 70,
+					"name": "MANAGE_LOADBALANCERS"
+				},
+				{
+					"links": [{
+						"title": "USERS_PROHIBIT_VDC_RESTRICTION",
+						"rel": "self",
+						"type": "application/vnd.abiquo.privilege+json",
+						"href": "https://abiquo/api/config/privileges/34"
+					}],
+					"id": 34,
+					"name": "USERS_PROHIBIT_VDC_RESTRICTION"
+				},
+				{
+					"links": [{
+						"title": "VDC_MANAGE_STORAGE_CONTROLLER",
+						"rel": "self",
+						"type": "application/vnd.abiquo.privilege+json",
+						"href": "https://abiquo/api/config/privileges/85"
+					}],
+					"id": 85,
+					"name": "VDC_MANAGE_STORAGE_CONTROLLER"
+				}]
+			}
+		},
+		"enterprise": {
+			"links": [{
+				"title": "Arbitrary Enterprise",
+				"rel": "edit",
+				"type": "application/vnd.abiquo.enterprise+json",
+				"href": "https://abiquo/api/admin/enterprises/1"
+			},
+			{
+				"title": "users",
+				"rel": "users",
+				"type": "application/vnd.abiquo.users+json",
+				"href": "https://abiquo/api/admin/enterprises/1/users"
+			},
+			{
+				"title": "properties",
+				"rel": "properties",
+				"type": "application/vnd.abiquo.enterpriseproperties+json",
+				"href": "https://abiquo/api/admin/enterprises/1/properties"
+			},
+			{
+				"title": "template definitions lists",
+				"rel": "appslib/templateDefinitionLists",
+				"type": "application/vnd.abiquo.templatedefinitionlists+json",
+				"href": "https://abiquo/api/admin/enterprises/1/appslib/templateDefinitionLists"
+			},
+			{
+				"title": "template defintion paths",
+				"rel": "appslib/templateDefinitions",
+				"type": "application/vnd.abiquo.templatedefinitions+json",
+				"href": "https://abiquo/api/admin/enterprises/1/appslib/templateDefinitions"
+			},
+			{
+				"title": "repositories",
+				"rel": "datacenterrepositories",
+				"type": "application/vnd.abiquo.datacenterrepositories+json",
+				"href": "https://abiquo/api/admin/enterprises/1/datacenterrepositories"
+			},
+			{
+				"title": "virtual machines",
+				"rel": "virtualmachines",
+				"type": "application/vnd.abiquo.virtualmachines+json",
+				"href": "https://abiquo/api/admin/enterprises/1/action/virtualmachines"
+			},
+			{
+				"title": "virtual appliances",
+				"rel": "virtualappliances",
+				"type": "application/vnd.abiquo.virtualappliances+json",
+				"href": "https://abiquo/api/admin/enterprises/1/action/virtualappliances"
+			},
+			{
+				"title": "ips",
+				"rel": "ips",
+				"type": "application/vnd.abiquo.privateips+json",
+				"href": "https://abiquo/api/admin/enterprises/1/action/ips"
+			},
+			{
+				"title": "virtual datacenters",
+				"rel": "cloud/virtualdatacenters",
+				"type": "application/vnd.abiquo.virtualdatacenters+json",
+				"href": "https://abiquo/api/admin/enterprises/1/action/virtualdatacenters"
+			},
+			{
+				"title": "reserved machines",
+				"rel": "reservedmachines",
+				"type": "application/vnd.abiquo.machines+json",
+				"href": "https://abiquo/api/admin/enterprises/1/reservedmachines"
+			},
+			{
+				"title": "limits",
+				"rel": "limits",
+				"type": "application/vnd.abiquo.limits+json",
+				"href": "https://abiquo/api/admin/enterprises/1/limits"
+			},
+			{
+				"title": "volumes",
+				"rel": "volumes",
+				"type": "application/vnd.abiquo.volumes+json",
+				"href": "https://abiquo/api/admin/enterprises/1/action/volumes"
+			},
+			{
+				"title": "external networks",
+				"rel": "externalnetworks",
+				"type": "application/vnd.abiquo.vlans+json",
+				"href": "https://abiquo/api/admin/enterprises/1/action/externalnetworks"
+			},
+			{
+				"title": "pending tasks",
+				"rel": "pendingtasks",
+				"type": "application/vnd.abiquo.tasks+json",
+				"href": "https://abiquo/api/admin/enterprises/1/action/pendingtasks"
+			},
+			{
+				"title": "credentials",
+				"rel": "credentials",
+				"type": "application/vnd.abiquo.publiccloudcredentialslist+json",
+				"href": "https://abiquo/api/admin/enterprises/1/credentials"
+			},
+			{
+				"title": "virtual appliances specs",
+				"rel": "vappspecs",
+				"type": "application/vnd.abiquo.virtualappliancespecs+json",
+				"href": "https://abiquo/api/admin/enterprises/1/vappspecs"
+			}],
+	        "ramSoftLimitInMb": 0,
+	        "ramHardLimitInMb": 0,
+	        "cpuCountSoftLimit": 0,
+	        "cpuCountHardLimit": 0,
+	        "diskSoftLimitInMb": 0,
+	        "diskHardLimitInMb": 0,
+	        "storageSoftInMb": 0,
+	        "storageHardInMb": 0,
+	        "vlansSoft": 0,
+	        "vlansHard": 0,
+	        "publicIpsSoft": 0,
+	        "publicIpsHard": 0,
+	        "repositorySoftInMb": 0,
+	        "repositoryHardInMb": 0,
+	        "id": 1,
+	        "name": "Arbitrary Enterprise",
+	        "isReservationRestricted": false,
+	        "workflow": false,
+	        "twoFactorAuthenticationMandatory": false
+		}
+	},
+	{
+		"links": [{
+			"title": "Arbitrary Enterprise",
+			"rel": "enterprise",
+			"type": "application/vnd.abiquo.enterprise+json",
+			"href": "https://abiquo/api/admin/enterprises/1"
+		},
+		{
+			"title": "USER",
+			"rel": "role",
+			"type": "application/vnd.abiquo.role+json",
+			"href": "https://abiquo/api/admin/roles/2"
+		},
+		{
+			"title": "user",
+			"rel": "edit",
+			"type": "application/vnd.abiquo.user+json",
+			"href": "https://abiquo/api/admin/enterprises/1/users/2"
+		},
+		{
+			"title": "virtual machines",
+			"rel": "virtualmachines",
+			"type": "application/vnd.abiquo.virtualmachines+json",
+			"href": "https://abiquo/api/admin/enterprises/1/users/2/action/virtualmachines"
+		},
+		{
+			"title": "pending tasks",
+			"rel": "pendingtasks",
+			"type": "application/vnd.abiquo.tasks+json",
+			"href": "https://abiquo/api/admin/enterprises/1/users/2/action/pendingtasks"
+		},
+		{
+			"title": "applications",
+			"rel": "applications",
+			"type": "application/vnd.abiquo.applications+json",
+			"href": "https://abiquo/api/admin/enterprises/1/users/2/applications"
+		}],
+		"id": 2,
+		"name": "Standard",
+		"nick": "user",
+		"locale": "en_US",
+		"surname": "User",
+		"active": true,
+		"email": "",
+		"description": "Standard user",
+		"firstLogin": false,
+		"locked": false,
+		"authType": "ABIQUO",
+		"role": {
+			"links": [],
+			"id": 2,
+			"name": "USER",
+			"blocked": false,
+			"privileges": {
+				"links": [],
+				"collection": [{
+					"links": [{
+						"title": "VDC_ENUMERATE",
+						"rel": "self",
+						"type": "application/vnd.abiquo.privilege+json",
+						"href": "https://abiquo/api/config/privileges/12"
+					}],
+					"id": 12,
+					"name": "VDC_ENUMERATE"
+				},
+				{
+					"links": [{
+						"title": "VDC_MANAGE_VAPP",
+						"rel": "self",
+						"type": "application/vnd.abiquo.privilege+json",
+						"href": "https://abiquo/api/config/privileges/14"
+					}],
+					"id": 14,
+					"name": "VDC_MANAGE_VAPP"
+				},
+				{
+					"links": [{
+						"title": "VAPP_CUSTOMISE_SETTINGS",
+						"rel": "self",
+						"type": "application/vnd.abiquo.privilege+json",
+						"href": "https://abiquo/api/config/privileges/17"
+					}],
+					"id": 17,
+					"name": "VAPP_CUSTOMISE_SETTINGS"
+				},
+				{
+					"links": [{
+						"title": "VAPP_DEPLOY_UNDEPLOY",
+						"rel": "self",
+						"type": "application/vnd.abiquo.privilege+json",
+						"href": "https://abiquo/api/config/privileges/18"
+					}],
+					"id": 18,
+					"name": "VAPP_DEPLOY_UNDEPLOY"
+				},
+				{
+					"links": [{
+						"title": "VAPP_PERFORM_ACTIONS",
+						"rel": "self",
+						"type": "application/vnd.abiquo.privilege+json",
+						"href": "https://abiquo/api/config/privileges/21"
+					}],
+					"id": 21,
+					"name": "VAPP_PERFORM_ACTIONS"
+				},
+				{
+					"links": [{
+						"title": "VAPP_CREATE_STATEFUL",
+						"rel": "self",
+						"type": "application/vnd.abiquo.privilege+json",
+						"href": "https://abiquo/api/config/privileges/22"
+					}],
+					"id": 22,
+					"name": "VAPP_CREATE_STATEFUL"
+				},
+				{
+					"links": [{
+						"title": "VAPP_CREATE_INSTANCE",
+						"rel": "self",
+						"type": "application/vnd.abiquo.privilege+json",
+						"href": "https://abiquo/api/config/privileges/23"
+					}],
+					"id": 23,
+					"name": "VAPP_CREATE_INSTANCE"
+				},
+				{
+					"links": [{
+						"title": "EVENTLOG_VIEW_ENTERPRISE",
+						"rel": "self",
+						"type": "application/vnd.abiquo.privilege+json",
+						"href": "https://abiquo/api/config/privileges/43"
+					}],
+					"id": 43,
+					"name": "EVENTLOG_VIEW_ENTERPRISE"
+				},
+				{
+					"links": [{
+						"title": "ENTERPRISE_SHOW_STATS_LIMITS",
+						"rel": "self",
+						"type": "application/vnd.abiquo.privilege+json",
+						"href": "https://abiquo/api/config/privileges/57"
+					}],
+					"id": 57,
+					"name": "ENTERPRISE_SHOW_STATS_LIMITS"
+				},
+				{
+					"links": [{
+						"title": "VAPP_MANAGE_LAYERS",
+						"rel": "self",
+						"type": "application/vnd.abiquo.privilege+json",
+						"href": "https://abiquo/api/config/privileges/56"
+					}],
+					"id": 56,
+					"name": "VAPP_MANAGE_LAYERS"
+				},
+				{
+					"links": [{
+						"title": "VAPP_STATEFUL_VIEW",
+						"rel": "self",
+						"type": "application/vnd.abiquo.privilege+json",
+						"href": "https://abiquo/api/config/privileges/67"
+					}],
+					"id": 67,
+					"name": "VAPP_STATEFUL_VIEW"
+				},
+				{
+					"links": [{
+						"title": "USERS_ENABLE_DISABLE_VM_METRICS",
+						"rel": "self",
+						"type": "application/vnd.abiquo.privilege+json",
+						"href": "https://abiquo/api/config/privileges/71"
+					}],
+					"id": 71,
+					"name": "USERS_ENABLE_DISABLE_VM_METRICS"
+				},
+				{
+					"links": [{
+						"title": "USERS_SHOW_VM_METRICS",
+						"rel": "self",
+						"type": "application/vnd.abiquo.privilege+json",
+						"href": "https://abiquo/api/config/privileges/72"
+					}],
+					"id": 72,
+					"name": "USERS_SHOW_VM_METRICS"
+				},
+				{
+					"links": [{
+						"title": "USERS_PUSH_VM_METRICS",
+						"rel": "self",
+						"type": "application/vnd.abiquo.privilege+json",
+						"href": "https://abiquo/api/config/privileges/74"
+					}],
+					"id": 74,
+					"name": "USERS_PUSH_VM_METRICS"
+				},
+				{
+					"links": [{
+						"title": "VDC_MANAGE_STORAGE_CONTROLLER",
+						"rel": "self",
+						"type": "application/vnd.abiquo.privilege+json",
+						"href": "https://abiquo/api/config/privileges/85"
+					}],
+					"id": 85,
+					"name": "VDC_MANAGE_STORAGE_CONTROLLER"
+				}]
+			}
+		},
+		"enterprise": {
+			"links": [{
+				"title": "Arbitrary Enterprise",
+				"rel": "edit",
+				"type": "application/vnd.abiquo.enterprise+json",
+				"href": "https://abiquo/api/admin/enterprises/1"
+			},
+			{
+				"title": "users",
+				"rel": "users",
+				"type": "application/vnd.abiquo.users+json",
+				"href": "https://abiquo/api/admin/enterprises/1/users"
+			},
+			{
+				"title": "properties",
+				"rel": "properties",
+				"type": "application/vnd.abiquo.enterpriseproperties+json",
+				"href": "https://abiquo/api/admin/enterprises/1/properties"
+			},
+			{
+				"title": "template definitions lists",
+				"rel": "appslib/templateDefinitionLists",
+				"type": "application/vnd.abiquo.templatedefinitionlists+json",
+				"href": "https://abiquo/api/admin/enterprises/1/appslib/templateDefinitionLists"
+			},
+			{
+				"title": "template defintion paths",
+				"rel": "appslib/templateDefinitions",
+				"type": "application/vnd.abiquo.templatedefinitions+json",
+				"href": "https://abiquo/api/admin/enterprises/1/appslib/templateDefinitions"
+			},
+			{
+				"title": "repositories",
+				"rel": "datacenterrepositories",
+				"type": "application/vnd.abiquo.datacenterrepositories+json",
+				"href": "https://abiquo/api/admin/enterprises/1/datacenterrepositories"
+			},
+			{
+				"title": "virtual machines",
+				"rel": "virtualmachines",
+				"type": "application/vnd.abiquo.virtualmachines+json",
+				"href": "https://abiquo/api/admin/enterprises/1/action/virtualmachines"
+			},
+			{
+				"title": "virtual appliances",
+				"rel": "virtualappliances",
+				"type": "application/vnd.abiquo.virtualappliances+json",
+				"href": "https://abiquo/api/admin/enterprises/1/action/virtualappliances"
+			},
+			{
+				"title": "ips",
+				"rel": "ips",
+				"type": "application/vnd.abiquo.privateips+json",
+				"href": "https://abiquo/api/admin/enterprises/1/action/ips"
+			},
+			{
+				"title": "virtual datacenters",
+				"rel": "cloud/virtualdatacenters",
+				"type": "application/vnd.abiquo.virtualdatacenters+json",
+				"href": "https://abiquo/api/admin/enterprises/1/action/virtualdatacenters"
+			},
+			{
+				"title": "reserved machines",
+				"rel": "reservedmachines",
+				"type": "application/vnd.abiquo.machines+json",
+				"href": "https://abiquo/api/admin/enterprises/1/reservedmachines"
+			},
+			{
+				"title": "limits",
+				"rel": "limits",
+				"type": "application/vnd.abiquo.limits+json",
+				"href": "https://abiquo/api/admin/enterprises/1/limits"
+			},
+			{
+				"title": "volumes",
+				"rel": "volumes",
+				"type": "application/vnd.abiquo.volumes+json",
+				"href": "https://abiquo/api/admin/enterprises/1/action/volumes"
+			},
+			{
+				"title": "external networks",
+				"rel": "externalnetworks",
+				"type": "application/vnd.abiquo.vlans+json",
+				"href": "https://abiquo/api/admin/enterprises/1/action/externalnetworks"
+			},
+			{
+				"title": "pending tasks",
+				"rel": "pendingtasks",
+				"type": "application/vnd.abiquo.tasks+json",
+				"href": "https://abiquo/api/admin/enterprises/1/action/pendingtasks"
+			},
+			{
+				"title": "credentials",
+				"rel": "credentials",
+				"type": "application/vnd.abiquo.publiccloudcredentialslist+json",
+				"href": "https://abiquo/api/admin/enterprises/1/credentials"
+			},
+			{
+				"title": "virtual appliances specs",
+				"rel": "vappspecs",
+				"type": "application/vnd.abiquo.virtualappliancespecs+json",
+				"href": "https://abiquo/api/admin/enterprises/1/vappspecs"
+			}],
+	        "ramSoftLimitInMb": 0,
+	        "ramHardLimitInMb": 0,
+	        "cpuCountSoftLimit": 0,
+	        "cpuCountHardLimit": 0,
+	        "diskSoftLimitInMb": 0,
+	        "diskHardLimitInMb": 0,
+	        "storageSoftInMb": 0,
+	        "storageHardInMb": 0,
+	        "vlansSoft": 0,
+	        "vlansHard": 0,
+	        "publicIpsSoft": 0,
+	        "publicIpsHard": 0,
+	        "repositorySoftInMb": 0,
+	        "repositoryHardInMb": 0,
+	        "id": 1,
+	        "name": "Arbitrary Enterprise",
+	        "isReservationRestricted": false,
+	        "workflow": false,
+	        "twoFactorAuthenticationMandatory": false
+		}
+	}],
+	"totalSize": 3
+}

@@ -1,0 +1,54 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.40629.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "biz.dfch.CS.Abiquo.Client", "biz.dfch.CS.Abiquo.Client\biz.dfch.CS.Abiquo.Client.csproj", "{A149C0F8-D483-4A91-A26C-95230148EE3A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "biz.dfch.CS.Abiquo.Client.Tests", "biz.dfch.CS.Abiquo.Client.Tests\biz.dfch.CS.Abiquo.Client.Tests.csproj", "{01F315F7-8BE1-4694-BED9-64FE4E31D9D0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Release", "Release", "{A9F53BA3-25C7-495C-826B-25615158AF98}"
+	ProjectSection(SolutionItems) = preProject
+		AssemblyVersion.cs = AssemblyVersion.cs
+		biz.dfch.CS.Abiquo.Client.nuspec = biz.dfch.CS.Abiquo.Client.nuspec
+		biz.dfch.PS.Abiquo.Client.nuspec = biz.dfch.PS.Abiquo.Client.nuspec
+		biz.dfch.PS.Abiquo.Client\biz.dfch.PS.Abiquo.Client.psd1 = biz.dfch.PS.Abiquo.Client\biz.dfch.PS.Abiquo.Client.psd1
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "biz.dfch.PS.Abiquo.Client.Tests", "biz.dfch.PS.Abiquo.Client.Tests\biz.dfch.PS.Abiquo.Client.Tests.csproj", "{E0584583-9FEC-404B-9561-172BA74ED233}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "biz.dfch.PS.Abiquo.Client", "biz.dfch.PS.Abiquo.Client\biz.dfch.PS.Abiquo.Client.csproj", "{3BE99296-06C4-4909-A9F5-F8C1F0A24032}"
+EndProject
+Project("{F5034706-568F-408A-B7B3-4D38C6DB8A32}") = "biz.dfch.PS.Abiquo.Scripts", "biz.dfch.PS.Abiquo.Scripts\biz.dfch.PS.Abiquo.Scripts.pssproj", "{6CAFC0C6-A428-4D30-A9F9-700E829FEA51}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A149C0F8-D483-4A91-A26C-95230148EE3A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A149C0F8-D483-4A91-A26C-95230148EE3A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A149C0F8-D483-4A91-A26C-95230148EE3A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A149C0F8-D483-4A91-A26C-95230148EE3A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{01F315F7-8BE1-4694-BED9-64FE4E31D9D0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{01F315F7-8BE1-4694-BED9-64FE4E31D9D0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{01F315F7-8BE1-4694-BED9-64FE4E31D9D0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{01F315F7-8BE1-4694-BED9-64FE4E31D9D0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E0584583-9FEC-404B-9561-172BA74ED233}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E0584583-9FEC-404B-9561-172BA74ED233}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E0584583-9FEC-404B-9561-172BA74ED233}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E0584583-9FEC-404B-9561-172BA74ED233}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3BE99296-06C4-4909-A9F5-F8C1F0A24032}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3BE99296-06C4-4909-A9F5-F8C1F0A24032}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3BE99296-06C4-4909-A9F5-F8C1F0A24032}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3BE99296-06C4-4909-A9F5-F8C1F0A24032}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6CAFC0C6-A428-4D30-A9F9-700E829FEA51}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6CAFC0C6-A428-4D30-A9F9-700E829FEA51}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6CAFC0C6-A428-4D30-A9F9-700E829FEA51}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6CAFC0C6-A428-4D30-A9F9-700E829FEA51}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+    <metadata>
+        <id>biz.dfch.PS.Abiquo.Client</id>
+        <version>3.4.0</version>
+        <title>biz.dfch.PS.Abiquo.Client</title>
+        <authors>d-fens GmbH</authors>
+        <owners>d-fens GmbH</owners>
+		<licenseUrl>https://github.com/dfensgmbh/biz.dfch.CS.Abiquo.Client/blob/master/LICENSE</licenseUrl>
+        <projectUrl>https://github.com/dfensgmbh/biz.dfch.CS.Abiquo.Client.git</projectUrl>
+        <iconUrl>https://raw.githubusercontent.com/dfensgmbh/biz.dfch.CS.Abiquo.Client/master/logo-32x32.png</iconUrl>
+        <requireLicenseAcceptance>true</requireLicenseAcceptance>
+        <description>biz.dfch.PS.Abiquo.Client
+========================
+
+PowerShell client for [Abiquo](http://www.abiquo.com/).
+
+d-fens GmbH, General-Guisan-Strasse 6, CH-6300 Zug, Switzerland
+
+## Download
+
+* Get it on [NuGet](https://www.nuget.org/packages/biz.dfch.PS.Abiquo.Client/)
+
+* See [Releases](https://github.com/dfensgmbh/biz.dfch.CS.Abiquo.Client/releases) and [Tags](https://github.com/dfensgmbh/biz.dfch.CS.Abiquo.Client/tags) on [GitHub](https://github.com/dfensgmbh/biz.dfch.CS.Abiquo.Client)
+		</description>
+        <summary>PowerShell Client for Abiquo</summary>
+        <releaseNotes>20161229
+none
+		</releaseNotes>
+        <copyright>Copyright © 2016 d-fens GmbH</copyright>
+        <tags>dfch Abiquo Client PowerShell</tags>
+        <dependencies>
+          <dependency id="biz.dfch.CS.PowerShell.Commons" version="1.7.0" />
+          <dependency id="biz.dfch.CS.Commons" version="1.10.1" />
+          <dependency id="Microsoft.PowerShell.5.ReferenceAssemblies" version="1.0.0" />
+          <dependency id="Newtonsoft.Json" version="9.0.1" />
+        </dependencies>
+    </metadata>
+	<files>
+    <file src="..\LICENSE" target="tools\LICENSE" />
+    <file src="..\NOTICE" target="tools\NOTICE" />
+    <file src="..\README.md" target="tools\README.md" />
+    <file src="biz.dfch.PS.Abiquo.Client\bin\Release\Install.ps1" target="Install.ps1" />
+    <file src="biz.dfch.PS.Abiquo.Client\bin\Release\Import-Module.ps1" target="tools\" />
+    <file src="biz.dfch.PS.Abiquo.Client\bin\Release\biz.dfch.PS.Abiquo.Client.dll.config" target="tools\biz.dfch.PS.Abiquo.Client.config" />
+    <file src="biz.dfch.PS.Abiquo.Client\bin\Release\biz.dfch.PS.Abiquo.Client.psd1" target="tools\" />
+    <file src="biz.dfch.PS.Abiquo.Client\bin\Release\biz.dfch.PS.Abiquo.Client.psm1" target="tools\" />
+    <file src="biz.dfch.PS.Abiquo.Client\bin\Release\biz.dfch.PS.Abiquo.Client.dll" target="tools\" />
+    <file src="biz.dfch.PS.Abiquo.Client\bin\Release\biz.dfch.CS.Abiquo.Client.dll" target="tools\" />
+    <file src="biz.dfch.PS.Abiquo.Client\bin\Release\biz.dfch.CS.PowerShell.Commons.dll" target="tools\" />
+    <file src="biz.dfch.PS.Abiquo.Client\bin\Release\biz.dfch.CS.Commons.dll" target="tools\" />
+    <file src="biz.dfch.PS.Abiquo.Client\bin\Release\Newtonsoft.Json.dll" target="tools\" />
+    <file src="biz.dfch.PS.Abiquo.Client\bin\Release\Newtonsoft.Json.xml" target="tools\" />
+  </files>
+</package>

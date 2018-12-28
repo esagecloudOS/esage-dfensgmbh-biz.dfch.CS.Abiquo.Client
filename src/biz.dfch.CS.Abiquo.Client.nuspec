@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+    <metadata>
+        <id>biz.dfch.CS.Abiquo.Client</id>
+        <version>3.4.0</version>
+        <title>biz.dfch.CS.Abiquo.Client</title>
+        <authors>d-fens GmbH</authors>
+        <owners>d-fens GmbH</owners>
+		<licenseUrl>https://github.com/dfensgmbh/biz.dfch.CS.Abiquo.Client/blob/master/LICENSE</licenseUrl>
+        <projectUrl>https://github.com/dfensgmbh/biz.dfch.CS.Abiquo.Client.git</projectUrl>
+        <iconUrl>https://raw.githubusercontent.com/dfensgmbh/biz.dfch.CS.Abiquo.Client/master/logo-32x32.png</iconUrl>
+        <requireLicenseAcceptance>true</requireLicenseAcceptance>
+        <description>biz.dfch.CS.Abiquo.Client
+========================
+
+C#/.NET client for [Abiquo](http://www.abiquo.com/).
+
+d-fens GmbH, General-Guisan-Strasse 6, CH-6300 Zug, Switzerland
+
+## Download
+
+* Get it on [NuGet](https://www.nuget.org/packages/biz.dfch.CS.Abiquo.Client/)
+
+* See [Releases](https://github.com/dfensgmbh/biz.dfch.CS.Abiquo.Client/releases) and [Tags](https://github.com/dfensgmbh/biz.dfch.CS.Abiquo.Client/tags) on [GitHub](https://github.com/dfensgmbh/biz.dfch.CS.Abiquo.Client)
+		</description>
+        <summary>C#/.NET client for Abiquo</summary>
+        <releaseNotes>20161229
+# FEATURES
+
+* Protect virtual machine action
+* Unprotect virtual machine action
+		</releaseNotes>
+        <copyright>Copyright © 2016 d-fens GmbH</copyright>
+        <tags>dfch Abiquo Client C#</tags>
+        <dependencies>
+			<dependency id="biz.dfch.CS.Commons" version="1.10.1" />
+			<dependency id="Newtonsoft.Json" version="9.0.1" />
+        </dependencies>
+    </metadata>
+	<files>
+		<file src="biz.dfch.CS.Abiquo.Client\bin\Release\biz.dfch.CS.Abiquo.Client.dll" target="lib\" />
+	</files>
+</package>

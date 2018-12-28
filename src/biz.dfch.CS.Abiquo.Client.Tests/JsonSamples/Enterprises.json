@@ -1,0 +1,134 @@
+﻿{
+	"links": [{
+		"rel": "first",
+		"href": "https://abiquo/api/admin/enterprises?limit=25&by=name"
+	},
+	{
+		"rel": "last",
+		"href": "https://abiquo/api/admin/enterprises?startwith=0&limit=25&by=name"
+	}],
+	"collection": [{
+		"links": [{
+			"title": "Arbitrary Enterprise",
+			"rel": "edit",
+			"type": "application/vnd.abiquo.enterprise+json",
+			"href": "https://abiquo/api/admin/enterprises/1"
+		},
+		{
+			"title": "users",
+			"rel": "users",
+			"type": "application/vnd.abiquo.users+json",
+			"href": "https://abiquo/api/admin/enterprises/1/users"
+		},
+		{
+			"title": "properties",
+			"rel": "properties",
+			"type": "application/vnd.abiquo.enterpriseproperties+json",
+			"href": "https://abiquo/api/admin/enterprises/1/properties"
+		},
+		{
+			"title": "template definitions lists",
+			"rel": "appslib/templateDefinitionLists",
+			"type": "application/vnd.abiquo.templatedefinitionlists+json",
+			"href": "https://abiquo/api/admin/enterprises/1/appslib/templateDefinitionLists"
+		},
+		{
+			"title": "template defintion paths",
+			"rel": "appslib/templateDefinitions",
+			"type": "application/vnd.abiquo.templatedefinitions+json",
+			"href": "https://abiquo/api/admin/enterprises/1/appslib/templateDefinitions"
+		},
+		{
+			"title": "repositories",
+			"rel": "datacenterrepositories",
+			"type": "application/vnd.abiquo.datacenterrepositories+json",
+			"href": "https://abiquo/api/admin/enterprises/1/datacenterrepositories"
+		},
+		{
+			"title": "virtual machines",
+			"rel": "virtualmachines",
+			"type": "application/vnd.abiquo.virtualmachines+json",
+			"href": "https://abiquo/api/admin/enterprises/1/action/virtualmachines"
+		},
+		{
+			"title": "virtual appliances",
+			"rel": "virtualappliances",
+			"type": "application/vnd.abiquo.virtualappliances+json",
+			"href": "https://abiquo/api/admin/enterprises/1/action/virtualappliances"
+		},
+		{
+			"title": "ips",
+			"rel": "ips",
+			"type": "application/vnd.abiquo.privateips+json",
+			"href": "https://abiquo/api/admin/enterprises/1/action/ips"
+		},
+		{
+			"title": "virtual datacenters",
+			"rel": "cloud/virtualdatacenters",
+			"type": "application/vnd.abiquo.virtualdatacenters+json",
+			"href": "https://abiquo/api/admin/enterprises/1/action/virtualdatacenters"
+		},
+		{
+			"title": "reserved machines",
+			"rel": "reservedmachines",
+			"type": "application/vnd.abiquo.machines+json",
+			"href": "https://abiquo/api/admin/enterprises/1/reservedmachines"
+		},
+		{
+			"title": "limits",
+			"rel": "limits",
+			"type": "application/vnd.abiquo.limits+json",
+			"href": "https://abiquo/api/admin/enterprises/1/limits"
+		},
+		{
+			"title": "volumes",
+			"rel": "volumes",
+			"type": "application/vnd.abiquo.volumes+json",
+			"href": "https://abiquo/api/admin/enterprises/1/action/volumes"
+		},
+		{
+			"title": "external networks",
+			"rel": "externalnetworks",
+			"type": "application/vnd.abiquo.vlans+json",
+			"href": "https://abiquo/api/admin/enterprises/1/action/externalnetworks"
+		},
+		{
+			"title": "pending tasks",
+			"rel": "pendingtasks",
+			"type": "application/vnd.abiquo.tasks+json",
+			"href": "https://abiquo/api/admin/enterprises/1/action/pendingtasks"
+		},
+		{
+			"title": "credentials",
+			"rel": "credentials",
+			"type": "application/vnd.abiquo.publiccloudcredentialslist+json",
+			"href": "https://abiquo/api/admin/enterprises/1/credentials"
+		},
+		{
+			"title": "virtual appliances specs",
+			"rel": "vappspecs",
+			"type": "application/vnd.abiquo.virtualappliancespecs+json",
+			"href": "https://abiquo/api/admin/enterprises/1/vappspecs"
+		}],
+		"ramSoftLimitInMb": 0,
+		"ramHardLimitInMb": 0,
+		"cpuCountSoftLimit": 0,
+		"cpuCountHardLimit": 0,
+		"diskSoftLimitInMb": 0,
+		"diskHardLimitInMb": 0,
+		"storageSoftInMb": 0,
+		"storageHardInMb": 0,
+		"vlansSoft": 0,
+		"vlansHard": 0,
+		"publicIpsSoft": 0,
+		"publicIpsHard": 0,
+		"repositorySoftInMb": 0,
+		"repositoryHardInMb": 0,
+		"id": 1,
+		"name": "Arbitrary Enterprise",
+		"isReservationRestricted": false,
+		"workflow": false,
+		"twoFactorAuthenticationMandatory": false
+	}],
+	"totalSize": 1
+}

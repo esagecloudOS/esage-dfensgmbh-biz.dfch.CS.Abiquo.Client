@@ -1,0 +1,51 @@
+﻿{
+    "links": [
+        {
+            "title": "Abiquo",
+            "rel": "enterprise",
+            "type": "application/vnd.abiquo.enterprise+json",
+            "href": "https://abiquo/api/admin/enterprises/1"
+        },
+        {
+            "title": "CLOUD_ADMIN",
+            "rel": "role",
+            "type": "application/vnd.abiquo.role+json",
+            "href": "https://abiquo/api/admin/roles/1"
+        },
+        {
+            "title": "admin",
+            "rel": "edit",
+            "type": "application/vnd.abiquo.user+json",
+            "href": "https://abiquo/api/admin/enterprises/1/users/1"
+        },
+        {
+            "title": "virtual machines",
+            "rel": "virtualmachines",
+            "type": "application/vnd.abiquo.virtualmachines+json",
+            "href": "https://abiquo/api/admin/enterprises/1/users/1/action/virtualmachines"
+        },
+        {
+            "title": "pending tasks",
+            "rel": "pendingtasks",
+            "type": "application/vnd.abiquo.tasks+json",
+            "href": "https://abiquo/api/admin/enterprises/1/users/1/action/pendingtasks"
+        },
+        {
+            "title": "applications",
+            "rel": "applications",
+            "type": "application/vnd.abiquo.applications+json",
+            "href": "https://abiquo/api/admin/enterprises/1/users/1/applications"
+        }
+    ],
+    "id": 1,
+    "name": "Cloud",
+    "nick": "admin",
+    "locale": "en_US",
+    "surname": "Administrator",
+    "active": true,
+    "email": "",
+    "description": "Main administrator",
+    "firstLogin": false,
+    "locked": false,
+    "authType": "ABIQUO"
+}
